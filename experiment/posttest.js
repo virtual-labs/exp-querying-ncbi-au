@@ -88,24 +88,77 @@
     /////////////// Write the MCQ below in the exactly same described format ///////////////
 
 
-    const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
-            answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
+    const myQuestions = [
+        
+        {
+            question: "1: An example of a life science search engine", ///// Write the question inside double quotes
+            answers: 
+            {
+                a: "Mozilla", ///// Write the option 1 inside double quotes
+                b: "PubMed", ///// Write the option 2 inside double quotes
+                c: "Entrez", ///// Write the option 2 inside double quotes
+                d: "Medscape", ///// Write the option 2 inside double quotes
+
+            },
+            correctAnswer: "b" ///// Write the correct option inside double quotes
+        },
+        
+
+        {
+            question: "2: Which of the following is specifically needed as query in NCBI:", ///// Write the question inside double quotes
+            answers: 
+            {
+                a: "Publication date", ///// Write the option 1 inside double quotes
+                b: "Accession number", ///// Write the option 2 inside double quotes
+                c: "Journal name", ///// Write the option 2 inside double quotes
+                d: "None of the above", ///// Write the option 2 inside double quotes
+
+            },
+            correctAnswer: "b" ///// Write the correct option inside double quotes
+        },
+
+
+        {
+            question: "3: Function used for selecting database in R programing.:", ///// Write the question inside double quotes
+            answers: 
+            {
+                a: "choosebank ( )", ///// Write the option 1 inside double quotes
+                b: "choosedatabase ( )", ///// Write the option 2 inside double quotes
+                c: "selectdatabase ( )", ///// Write the option 2 inside double quotes
+                d: "bank ()", ///// Write the option 2 inside double quotes
+
             },
             correctAnswer: "a" ///// Write the correct option inside double quotes
         },
 
-    {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
-      answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
-    },
 
+
+        {
+            question: "4. getSequence is used to retrieve:", ///// Write the question inside double quotes
+            answers: 
+            {
+                a: "mRna sequence", ///// Write the option 1 inside double quotes
+                b: "Protein sequence", ///// Write the option 2 inside double quotes
+                c: "DNA sequence", ///// Write the option 2 inside double quotes
+                d: "Name of the sequence.", ///// Write the option 2 inside double quotes
+
+            },
+            correctAnswer: "c" ///// Write the correct option inside double quotes
+        },
+
+
+        {
+            question: "5. GenBank format, AC refers to", ///// Write the question inside double quotes
+            answers: 
+            {
+                a: "Accession number", ///// Write the option 1 inside double quotes
+                b: "Authors", ///// Write the option 2 inside double quotes
+                c: "Keyword", ///// Write the option 2 inside double quotes
+                d: "Protein name.", ///// Write the option 2 inside double quotes
+
+            },
+            correctAnswer: "a" ///// Write the correct option inside double quotes
+        },
 
         
     ];
