@@ -1,1 +1,1 @@
-## Experiment name
+## Querying NCBI database in R

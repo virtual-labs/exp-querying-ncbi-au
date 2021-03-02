@@ -88,23 +88,62 @@
      /////////////// Write the MCQ below in the exactly same described format ///////////////
 
 
-     const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
-            answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
+     const myQuestions = [
+         
+        {
+            question: "1: Which of the following statement(s) is/are true about GenBank?", ///// Write the question inside double quotes
+            answers: 
+            {
+                a: "Contains collection of publicly available nucleotide sequence", ///// Write the option 1 inside double quotes
+                b: "Open access", ///// Write the option 2 inside double quotes
+                c: "Maintained by NCBI", ///// Write the option 2 inside double quotes
+                d: "All the above", ///// Write the option 2 inside double quotes
+
+            },
+            correctAnswer: "d" ///// Write the correct option inside double quotes
+        },
+        
+
+        {
+            question: "2: PubMed is one of the popular resources of:", ///// Write the question inside double quotes
+            answers: 
+            {
+                a: "EMBL", ///// Write the option 1 inside double quotes
+                b: "NCBI", ///// Write the option 2 inside double quotes
+                c: "DDBJ", ///// Write the option 2 inside double quotes
+                d: "GenBank", ///// Write the option 2 inside double quotes
+
+            },
+            correctAnswer: "b" ///// Write the correct option inside double quotes
+        },
+
+
+        {
+            question: "3: Role of NCBI in multidisciplinary research includes:", ///// Write the question inside double quotes
+            answers: 
+            {
+                a: "Genome analysis", ///// Write the option 1 inside double quotes
+                b: "Understanding structure of biomolecules", ///// Write the option 2 inside double quotes
+                c: "Biological data storage and retrieval", ///// Write the option 2 inside double quotes
+                d: "All the above", ///// Write the option 2 inside double quotes
+
+            },
+            correctAnswer: "d" ///// Write the correct option inside double quotes
+        },
+
+
+
+        {
+            question: "4. Databases such as Genbank, EMBL and DDBJ are updated daily:", ///// Write the question inside double quotes
+            answers: 
+            {
+                a: "True", ///// Write the option 1 inside double quotes
+                b: "False", ///// Write the option 2 inside double quotes
+               
             },
             correctAnswer: "a" ///// Write the correct option inside double quotes
         },
 
-    {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
-      answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
-    },
 
 
 
