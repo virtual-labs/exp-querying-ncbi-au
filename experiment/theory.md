@@ -28,19 +28,27 @@ Major goal in databases development was to provide a user friendly access to sto
 In NCBI Sequence Database, each sequence has a separate record and a unique identifier which can be used to refer to that sequence record. Unique identifier is recorded as accession, consisting of numbers and letters. For example, accessions for the DNA sequences of the Dengue Virus types are DEN-1 (NC_001477), DEN-2 (NC_001474), DEN-3(NC_001475) and DEN-4 (NC_002640) respectively. For example, to retrieve DNA sequence of DEN-2 virus, potential virus to cause dengue hemorrhagic fever, in NCBI website (https://www.ncbi.nlm.nih.gov/) type “NC_001474 in search box and press the “Search” button. 
  
 
-![](/experiment/images/1.png)	
+&nbsp;
+<center><img src="images/1.png" title="" /></center>
 
-![](/experiment/images/2.png)
- 
 
-Fig.1. Querying sequence data for Dengue virus, type 2
+<center><img src="images/2.png" title="" /></center>
+
+ <center>Fig.1. Querying sequence data for Dengue virus, type 2</center>
+
+&nbsp;
+
 The result page retrives “PubMed” data containing abstracts from scientific papers, Nucleotide database contains DNA and RNA sequence analysis, the “Protein” data contains for retrieving protein sequence data, and so on. User can look into different features of the given query. Instead of providing accession number, users can type query word such as insulin, keratin etc and can search in depth about the query sequence. 
 To retrieve FASTA format sequence of DEN-2 Dengue virus genome, click Send” at the top right of the NC_001477 sequence record webpage and choose “File” in FASTA and save the file in “ My documents folder of user’s personal computer as den2.fasta (Fig.2). 
 
  
- ![](/experiment/images/3.png)
+ &nbsp;
+<center><img src="images/3.png" title="" /></center>
+&nbsp;
  
-Fig.2. Retrieving FASTA file of query sequence
+<center>Fig.2. Retrieving FASTA file of query sequence</center>
+&nbsp;
+
 
 For detailed information see:
 http://vlab.amrita.edu/index.php?sub=3&brch=273&sim=1437&cnt=1 
