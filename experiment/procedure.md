@@ -1,4 +1,38 @@
 
+**Procedure to work the simulator**
+
+&nbsp;
+1.	Enter Accession number in the query box provided in the platform.  An accession number in bioinformatics indicates a unique identifier given to a DNA or protein sequence for tracking of different versions of that sequence record and the associated sequence over time in a single data repository.
+
+     <center><img src="images/6.1.png" title="" /></center>
+&nbsp;
+
+
+2.	Click on Run button to execute simulation.
+
+     <center><img src="images/6.2.png" title="" /></center>
+&nbsp;
+
+
+The complete genome sequence of the particular organism is displayed as result. 
+
+&nbsp;
+
+**Note**
+
+This experiment retrieves the sequence data directly from the NCBI database using R programming. Using the choosebank() function in the ‘seqinr’ library the R platform connects to the GenBank database. Using the R programming, user can retrieve and save the species specific sequence data in a variable.
+
+
+
+
+&ensp;
+
+**DIY**
+
+
+
+
+
 1.	Follow ( https://vlab.amrita.edu/index.php?sub=3&brch=311&sim=1835&cnt=2) to install R in personal computer.
 
 2.	Install the SeqinR package.
@@ -60,47 +94,5 @@ EXAMPLE
 
 
 &nbsp;
-
-Procedure to work the simulator
-
-
-1.	Follow the code in the command window: 
-
-```library("seqinr")  # Load seqinr package in R
-
-choosebank("genbank") # ChossingGenBank for the sequence
-
-choosebank("refseqViruses") # Choosing the sub database which we want to search
-
-test_query<- query("Dengue1", "AC=NC_001477") # querying and setting the name and passing accession number
-
-attributes(test_query) # for viewing the attriutes of query()
-
-dengueseq<- getSequence(test_query$req[[1]]) # get the dna sequence
-
-seqname<- getName(test_query)
-
-#write.fasta(sequences = dengueseq, names = seqname, file.out="denguevirus.fasta")
-```
- 
-
-&nbsp;
-<center><img src="images/4.png" title="" /></center>
-&nbsp;
-
-<center>Fig.3. R console for querying NCBI database in R</center>
-
-
-&nbsp;
-
-2.	Click Execute Button for output.   
-
-
-
-&nbsp;
-
-**Note**
-
-This experiment retrieves the sequence data directly from the NCBI database using R programming. Using the choosebank() function in the ‘seqinr’ library the R platform connects to the GenBank database. Using the R programming, user can retrieve and save the species specific sequence data in a variable.
 
 
